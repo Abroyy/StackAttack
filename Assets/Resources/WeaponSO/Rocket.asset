@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9906f424958617041b307ad6a2edd9f4, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  type: 2
+  projectilePrefab: {fileID: 3786112814411128723, guid: 9b0b24368a7b1d94185e78d741711228, type: 3}
+  fireRate: 0.25
+  damage: 1
+  projectileAmount: 2
+  piercingAmount: 0
+  damageMultiplier: 1
+  specialInterval: 4

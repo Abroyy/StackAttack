@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d9590940aa5bd4fbad934f4884005a, type: 3}
+  m_Name: Level4
+  m_EditorClassIdentifier: 
+  levelSize: {x: 5, y: 170}
+  blockSize: {x: 1, y: 1}
+  segments:
+  - segmentName: Block
+    type: 0
+    startY: 4
+    endY: 20
+    density: 0.4
+    flowSpeedMultiplier: 1
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 2
+    maxHealth: 5
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 1
+    bossPrefab: {fileID: 0}
+    disableAttack: 0
+  - segmentName: Block
+    type: 0
+    startY: 21
+    endY: 45
+    density: 0.4
+    flowSpeedMultiplier: 1
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: 86e4c88b39bb2654cab5b68fc1c1ead1, type: 3}
+      groupType: 2
+    minHealth: 5
+    maxHealth: 15
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 1
+    bossPrefab: {fileID: 0}
+    disableAttack: 0
+  - segmentName: Coin Rush
+    type: 1
+    startY: 45
+    endY: 50
+    density: 0
+    flowSpeedMultiplier: 3
+    showWarningUI: 1
+    possibleBlocks: []
+    minHealth: 2
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 0}
+    disableAttack: 1
+  - segmentName: Coin
+    type: 1
+    startY: 50
+    endY: 60
+    density: 0.7
+    flowSpeedMultiplier: 3
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 100
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 0}
+    disableAttack: 1
+  - segmentName: Block
+    type: 0
+    startY: 75
+    endY: 100
+    density: 0.5
+    flowSpeedMultiplier: 0.7
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: 86e4c88b39bb2654cab5b68fc1c1ead1, type: 3}
+      groupType: 2
+    minHealth: 30
+    maxHealth: 60
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 1
+    bossPrefab: {fileID: 0}
+    disableAttack: 0
+  - segmentName: Block
+    type: 0
+    startY: 101
+    endY: 150
+    density: 0.5
+    flowSpeedMultiplier: 1
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: adc7c32830c9fec4e93e2df6802d6a73, type: 3}
+      groupType: 3
+    minHealth: 40
+    maxHealth: 70
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 1
+    bossPrefab: {fileID: 0}
+    disableAttack: 0
+  - segmentName: Coin Rush
+    type: 1
+    startY: 150
+    endY: 155
+    density: 0
+    flowSpeedMultiplier: 3
+    showWarningUI: 1
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 100
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 0}
+    disableAttack: 1
+  - segmentName: Coin
+    type: 1
+    startY: 155
+    endY: 165
+    density: 0.5
+    flowSpeedMultiplier: 3
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 100
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 0}
+    disableAttack: 1
+  - segmentName: Boss
+    type: 3
+    startY: 170
+    endY: 174
+    density: 0
+    flowSpeedMultiplier: 1
+    showWarningUI: 1
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 100
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 0}
+    disableAttack: 0
+  - segmentName: Boss
+    type: 3
+    startY: 171
+    endY: 172
+    density: 0
+    flowSpeedMultiplier: 0
+    showWarningUI: 0
+    possibleBlocks:
+    - prefab: {fileID: 1661032275978848880, guid: d4480bf21332e57458206e9695d31db4, type: 3}
+      groupType: 0
+    minHealth: 100
+    maxHealth: 120
+    coinPrefab: {fileID: 2995069812785188499, guid: e16ecc470c0926e4ab602bff6de0111b, type: 3}
+    spawnFrenzyHere: 0
+    bossPrefab: {fileID: 2367802915435701138, guid: 5d596bf96f221304b88e90a8c0df68cc, type: 3}
+    disableAttack: 0
